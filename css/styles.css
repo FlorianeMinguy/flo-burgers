@@ -29,7 +29,7 @@ body {
     cursor: pointer;
 }
 .nav-link.active {
-    background-color: #e7480f !important;
+    background-color: #e7480f !important; /* usage de !important pour écraser le !important de Bootstrap */
 }
 .nav-link:hover {
     color: #e7480f;
@@ -38,7 +38,7 @@ body {
 
 /* ELEMENTS DE MENU */
 .col-md-6 {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 .img-thumbnail {
@@ -103,4 +103,14 @@ body {
 .img-thumbnail .btn-order:hover, 
 .img-thumbnail .btn-order:focus {
     background-color: #c13c0d;
+}
+
+/* ADMIN */
+.admin {
+    background-color: #fff;
+    padding:50 px;
+    border-radius: 10px;
+}
+.help-inline{
+    color:red;
 }
